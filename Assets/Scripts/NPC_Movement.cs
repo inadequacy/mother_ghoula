@@ -25,29 +25,45 @@ public class MoveToTarget : MonoBehaviour {
     {
         currentDistanceToPlayer = Vector3.Distance(this.transform.position, target.transform.position);
 
-        // Set the target destination
         if (!agent.hasPath)
             agent.SetDestination(target.position);
-        if (!isChasing)
-            agent.speed = walkSpeed;
-        else if (isChasing)
-            agent.speed = runSpeed;
 
         if (currentDistanceToPlayer <= playerDetectedRange)
-            NoiseHeard(target.position);
-        if (currentDistanceToPlayer <= playerDetectedRange && isChasing)
-            agent.SetDestination(target.position);
-        if (currentDistanceToPlayer >= (playerDetectedRange + 2f))
-            ResetAggro();
-        if (currentDistanceToPlayer <= 5.0f)
-            player.GameOver();
+            agent.speed = runSpeed;
+        else
+            agent.speed = walkSpeed;
+
+        //// Set the target destination
+        //if (!isChasing)
+        //    agent.speed = walkSpeed;
+        //else if (isChasing)
+        //    agent.speed = runSpeed;
+
+        ////if (!agent.hasPath)
+        ////    agent.SetDestination(target.position);
+
+        //if (currentDistanceToPlayer <= playerDetectedRange && isChasing == false)
+        //    NoiseHeard(target.position);
+        //else if (currentDistanceToPlayer <= playerDetectedRange && isChasing == true)
+        //    agent.SetDestination(target.position);
+        //else
+        //{
+        //    agent.SetDestination(target.position);
+        //    ResetAggro();
+        //}
+        //Debug.Log(agent.stoppingDistance);
+        //if (currentDistanceToPlayer <= 4.0f)
+        //    player.GameOver();
     }
 
-    void NoiseHeard(Vector3 source)
+    public void NoiseHeard(Vector3 source)
     {
-        scream.Play();
-        isChasing = true;
-        agent.SetDestination(new Vector3(source.x, 0, source.y));
+        if (!isChasing)
+        {
+            scream.Play();
+            isChasing = true;
+        }
+        agent.SetDestination(source);
     }
 
     void ResetAggro()
