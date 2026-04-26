@@ -3,7 +3,62 @@ guid: f0fe9495ad4e70e438fbf857d6017497
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bark_1
+    second: {fileID: 2100000, guid: 8878cd6224e744f43a404c1a3229ee44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brick join
+    second: {fileID: 2100000, guid: d2e328ded098af147b8c66f1508b9a0c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bricks
+    second: {fileID: 2100000, guid: bb6abb66c59ae1142a1dba8e52a6fbaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hojas.001
+    second: {fileID: 2100000, guid: f09c16d6004230e4fb9615a88f076486, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: madera
+    second: {fileID: 2100000, guid: 303fb2636ec87ae42829f18c2f60f1de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: reja
+    second: {fileID: 2100000, guid: 81fc0a96019e31d4daee2663a96a7eda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rocks
+    second: {fileID: 2100000, guid: 81cd416f6708fad4ebe88e8f3b794aa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sal
+    second: {fileID: 2100000, guid: c104a7014b57eb84e973c1e4fbe8e432, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tronco
+    second: {fileID: 2100000, guid: d48c3e6a328974f40bfef6fb6fe3688a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tumbas
+    second: {fileID: 2100000, guid: 1341ca992f53c6b46bc37b154667d0f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall hause
+    second: {fileID: 2100000, guid: a9ccb613fc71bc344b52ad17cf53a995, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
