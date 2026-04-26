@@ -14,7 +14,8 @@ public class Player_Character : MonoBehaviour {
         {
             health -= lossRate;
             nextLoss += 1.0f;
-            Debug.Log(health);
+            if (health % 10 != 0)
+                Debug.Log(health);
         }
         if (health == 0)
             Debug.Log("game loss");
