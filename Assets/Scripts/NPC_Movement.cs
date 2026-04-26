@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
+[RequireComponent(typeof(NavMeshAgent))]
 public class MoveToTarget : MonoBehaviour {
     public Transform target;
     private NavMeshAgent agent;
