@@ -313,7 +313,7 @@ namespace UnityStandardAssets.ImageEffects
         private void AddTo (float intensity_, RenderTexture from, RenderTexture to)
         {
             screenBlend.SetFloat ("_Intensity", intensity_);
-            to.MarkRestoreExpected(); // additive blending, RT restore expected
+            // to.MarkRestoreExpected(); // additive blending, RT restore expected
             Graphics.Blit (from, to, screenBlend, 9);
         }
 
