@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: f906f32fed19b0e45a145c09f6982da9
+guid: 4c2ad70feab95144c9dd9bfb18c3fe3b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plasticBag_black
+    second: {fileID: 2100000, guid: da62c8534271d034d853b5f3f0c700f5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

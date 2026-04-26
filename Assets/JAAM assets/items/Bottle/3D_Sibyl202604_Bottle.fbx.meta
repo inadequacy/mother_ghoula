@@ -3,7 +3,22 @@ guid: 0c6dac87b3bd1e34c860a1507f298ed3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DarkRed
+    second: {fileID: 2100000, guid: 5101a07918bb49d42b8230d97ebd2ff8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bottleGlass_01
+    second: {fileID: 2100000, guid: fbd05701b10c77148a0b15a1b997010c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rust_53C_B_rough
+    second: {fileID: 2100000, guid: 74750aa8e03f61248961f795cd8e6709, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

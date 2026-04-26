@@ -3,7 +3,22 @@ guid: 01754868289116a4db9d1d251b47d2c4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackGlare
+    second: {fileID: 2100000, guid: 706594d641a12ee468f6829895d8d2c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackRough
+    second: {fileID: 2100000, guid: 6e7ef194a2c72984ba50323994239297, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rust-53C
+    second: {fileID: 2100000, guid: 51a7aa450a5a3674db82070273e45e1e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

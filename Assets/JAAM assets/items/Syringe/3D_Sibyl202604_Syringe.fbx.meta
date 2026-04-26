@@ -1,9 +1,29 @@
 fileFormatVersion: 2
-guid: 4c2ad70feab95144c9dd9bfb18c3fe3b
+guid: c47ab7d87030f034ab6c4aaa013f19ad
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackRough
+    second: {fileID: 2100000, guid: 70d7a31d3b7f27d41b77a7404e8458bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: glass_alpha
+    second: {fileID: 2100000, guid: bceb136119cb6a346b0736c43bde065e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: greenTransparent
+    second: {fileID: 2100000, guid: 89beb13d9da0aef4fb5099f0179e2bc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: liquid_brass
+    second: {fileID: 2100000, guid: 5f45c048005104b47adf5b512ab233a0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
