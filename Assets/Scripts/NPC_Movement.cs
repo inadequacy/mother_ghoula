@@ -6,6 +6,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(AudioSource))]
 public class MoveToTarget : MonoBehaviour {
     public Transform target;
+    public Player_Character player;
     public float walkSpeed = 5f;
     public float runSpeed = 10f;
     public float playerDetectedRange = 50f;
@@ -33,15 +34,18 @@ public class MoveToTarget : MonoBehaviour {
             agent.speed = runSpeed;
 
         if (currentDistanceToPlayer <= playerDetectedRange)
-            StartCoroutine(NoiseHeard(target.position));
+            NoiseHeard(target.position);
+        if (currentDistanceToPlayer <= playerDetectedRange && isChasing)
+            agent.SetDestination(target.position);
         if (currentDistanceToPlayer >= (playerDetectedRange + 2f))
             ResetAggro();
+        if (currentDistanceToPlayer <= 5.0f)
+            player.GameOver();
     }
 
-    public IEnumerator NoiseHeard(Vector3 source)
+    void NoiseHeard(Vector3 source)
     {
         scream.Play();
-        yield return new WaitForSeconds(1);
         isChasing = true;
         agent.SetDestination(new Vector3(source.x, 0, source.y));
     }
