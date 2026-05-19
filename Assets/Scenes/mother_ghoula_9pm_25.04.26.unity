@@ -395,7 +395,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 6380073bb36436542a3a70b0cc50f1ca, type: 2}
+  m_NavMeshData: {fileID: 0}
   m_BuildHeightMesh: 0
 --- !u!1 &334641013
 GameObject:
@@ -676,7 +676,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: d725d03ecf664bd40b1ab7f4502e467b, type: 2}
+  m_NavMeshData: {fileID: 0}
   m_BuildHeightMesh: 0
 --- !u!1 &399959124 stripped
 GameObject:
@@ -760,7 +760,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 0e54d947495bb494fb230958969c84f0, type: 2}
+  m_NavMeshData: {fileID: 0}
   m_BuildHeightMesh: 0
 --- !u!4 &539059633 stripped
 Transform:
@@ -828,7 +828,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: a2ba551507e3dab4483f98730dd6082d, type: 2}
+  m_NavMeshData: {fileID: 0}
   m_BuildHeightMesh: 0
 --- !u!1001 &888793998
 PrefabInstance:
@@ -2444,7 +2444,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: ffb60b75eb412b44389f6dacf0cb2b5c, type: 2}
+  m_NavMeshData: {fileID: 0}
   m_BuildHeightMesh: 0
 --- !u!1001 &1779732737
 PrefabInstance:
@@ -2794,7 +2794,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 2742c869078c27a448e43004e5c363c5, type: 2}
+  m_NavMeshData: {fileID: 0}
   m_BuildHeightMesh: 0
 --- !u!1001 &1865480781
 PrefabInstance:
@@ -3219,7 +3219,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 54cc1f55a60e3ba43b1012fd68c12d65, type: 2}
+  m_NavMeshData: {fileID: 0}
   m_BuildHeightMesh: 0
 --- !u!1 &2128000325
 GameObject:
@@ -3547,10 +3547,10 @@ SceneRoots:
   - {fileID: 1407120587}
   - {fileID: 9152500595546354986}
   - {fileID: 4879192516420678797}
-  - {fileID: 1485216408}
   - {fileID: 2128000329}
   - {fileID: 1577380724}
   - {fileID: 1802042711}
   - {fileID: 29967722}
   - {fileID: 1171044310}
   - {fileID: 1779732737}
+  - {fileID: 1485216408}
