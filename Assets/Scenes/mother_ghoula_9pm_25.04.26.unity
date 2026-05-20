@@ -1631,33 +1631,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7410118118105239865, guid: f0fe9495ad4e70e438fbf857d6017497, type: 3}
---- !u!1 &704734053 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7383965044416166563, guid: f0fe9495ad4e70e438fbf857d6017497, type: 3}
-  m_PrefabInstance: {fileID: 1485216408}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &704734057
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 704734053}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2897909920029641577, guid: f0fe9495ad4e70e438fbf857d6017497, type: 3}
 --- !u!1 &734853106 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7176250894713804533, guid: f0fe9495ad4e70e438fbf857d6017497, type: 3}
@@ -3803,6 +3776,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.063631296
       objectReference: {fileID: 0}
+    - target: {fileID: -1715169100717861242, guid: f0fe9495ad4e70e438fbf857d6017497, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -1601880466588735922, guid: f0fe9495ad4e70e438fbf857d6017497, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.12
@@ -4292,18 +4269,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6778055663296238992, guid: f0fe9495ad4e70e438fbf857d6017497, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1839015971}
-    - targetCorrespondingSourceObject: {fileID: -2649976337846816141, guid: f0fe9495ad4e70e438fbf857d6017497, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2105653407}
     - targetCorrespondingSourceObject: {fileID: -6335137425615992343, guid: f0fe9495ad4e70e438fbf857d6017497, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1398235050}
     - targetCorrespondingSourceObject: {fileID: -6753082726924983184, guid: f0fe9495ad4e70e438fbf857d6017497, type: 3}
       insertIndex: -1
       addedObject: {fileID: 155288434}
-    - targetCorrespondingSourceObject: {fileID: 7383965044416166563, guid: f0fe9495ad4e70e438fbf857d6017497, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 704734057}
     - targetCorrespondingSourceObject: {fileID: 1361337917165340498, guid: f0fe9495ad4e70e438fbf857d6017497, type: 3}
       insertIndex: -1
       addedObject: {fileID: 680619601}
@@ -6349,42 +6320,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1540618704310224514, guid: f0fe9495ad4e70e438fbf857d6017497, type: 3}
---- !u!1 &2105653403 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -2649976337846816141, guid: f0fe9495ad4e70e438fbf857d6017497, type: 3}
-  m_PrefabInstance: {fileID: 1485216408}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2105653407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2105653403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AgentTypeID: 0
-  m_CollectObjects: 0
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 2, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 0
-  m_DefaultArea: 0
-  m_GenerateLinks: 0
-  m_IgnoreNavMeshAgent: 1
-  m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
-  m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
-  m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 0}
-  m_BuildHeightMesh: 0
 --- !u!1 &2125953285 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7500504166938100267, guid: f0fe9495ad4e70e438fbf857d6017497, type: 3}
